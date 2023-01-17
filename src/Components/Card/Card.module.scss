@@ -156,18 +156,17 @@
   width: 80px;
   background-color: $card-accent--default;
   color: $font-color--light;
-
   border-radius: 50%;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-
   transition: all 0.3s ease-in;
-
+  position: relative;
+    bottom: -206px;
+    right: -170px;
+  
   &__count {
-    font-family: 'Trebuchet MS';
     font-style: normal;
 
     font-size: 42px;
