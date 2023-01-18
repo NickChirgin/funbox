@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import Card from '../Card.jsx';
+import Card from '../Card';
 import styles from './ProductList.module.scss';
 
 
