@@ -7,7 +7,7 @@ function App() {
   return(
 		<div className={styles.app}>
 			<h1 className={styles.app__title}>Ты сегодня покормил кота?</h1>
-			<ProductList className={styles.app__productList} data={data.items}/>
+			<ProductList data={data.items}/>
 		</div>
 	);
 }
