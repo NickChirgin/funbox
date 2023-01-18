@@ -1,6 +1,6 @@
 import styles from './App.module.scss'
 import data from './assets/data.json'
-import ProductList from './Components/ProductList/ProductList';
+import ProductList from './Components/ProductList/ProductList.jsx';
 
 function App() {
 
